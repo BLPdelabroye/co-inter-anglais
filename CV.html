@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Résumé</title>
+    <link rel="stylesheet" href="CVStyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="titre">MY CV</h1>
+
+        
+        <img src="me2.jpg" alt="Photo de profil">
+
+        
+        <h2>Personal info</h2>
+        <div class="personal-info">
+            <strong>Delabroye Baptiste</strong><br>
+            19 Y.O<br>
+            Tel: 06.24.99.44.58 (French)<br>
+            <a href="mailto:baptiste.delabroye@gmail.com">baptiste.delabroye@gmail.com</a>
+        </div>
+
+        <h2>Education</h2>
+        <p>2021-2024 Vocational School Saint Riquier</p>
+        <p>2024 A-level Professional at Secondary School Saint Riquier</p>
+        <p>2021 Certificate at Secondary School Saint Riquier</p>
+
+        <h2>Work Experience</h2>
+        <p>
+            Internship at AFTRAL in IT department.<br>
+            Internships at Eiffage Energies Systèmes (Design office and construction site).<br>
+            Internship at Haxes (1 week).<br>
+            Worked with the electrician and IT specialist at Municipal technical center.
+        </p>
+
+        
+        <h2>Skills</h2>
+        <div class="skills">
+            Assembly PC<br>
+            Projector installation and identification<br>
+            Driver's license holder<br>
+        </div>
+
+        
+        <h2>Hobbies</h2>
+        <div class="hobbies">
+            Bike<br>
+            Video Games<br>
+        </div>
+
+        
+        <footer>
+            &copy; 2024 Baptiste Delabroye
+        </footer>
+    </div>
+
+    <script>
+        function getRandomColor() {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        function changeTitleColor() {
+            const titre = document.getElementById("titre");
+            titre.style.color = getRandomColor();
+        }
+
+        setInterval(changeTitleColor, 2000);
+    </script>
+
+</body>
+</html>

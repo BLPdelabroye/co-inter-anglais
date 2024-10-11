@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #22bbbb;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#titre {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.5s;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+p {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.personal-info, .skills, .hobbies {
+    margin: 10px 0;
+    text-align: left;
+}
+
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}
